@@ -1,3 +1,29 @@
-body {
-  height: 800px;
+#main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+#container {
+  display: inline-grid;
+  grid-template-columns: repeat(16, 2fr);
+  grid-template-rows: repeat(16, 2fr);
+  width: 350px;
+  height: 350px;
+}
+
+.slider-container {
+  display: flex;
+  align-items: center;
+}
+
+#slider {
+  width: 100px;
+  height: 5px;
+}
+
+p {
+  font-size: 12px;
 }
