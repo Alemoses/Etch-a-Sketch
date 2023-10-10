@@ -8,7 +8,7 @@ function divCreator(){
     gameContainer.appendChild(div);
     
     div.className = (`cell-${i}`);
-    div.style.backgroundColor = ('green');
+    div.style.backgroundColor = ('lightgray');
     div.onmousemove = function(){div.style.backgroundColor = "black"};
   }
 }
@@ -32,7 +32,7 @@ slider.oninput = function(){
     gameContainer.appendChild(div);
     
     div.className = (`cell-${i}`);
-    div.style.backgroundColor = ('green');
+    div.style.backgroundColor = ('lightgray');
     div.onmousemove = function(){div.style.backgroundColor = "black"};
   }
 }
