@@ -3,26 +3,36 @@ body {
   justify-content: center;
   align-items: center;
   background: #000;
+  flex-direction: column;
 }
 
 #main {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  justify-content: center;
   align-items: center;
-  width: 1200px;
-  height: 542px;
+  width: 1500px;
+  height: 900px;
   background-color: red;
   border-radius: 25px;
+  margin-top: 25px;
+}
+
+.game {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
 }
 
 #container {
   display: inline-grid;
   grid-template-columns: repeat(16, 2fr);
   grid-template-rows: repeat(16, 2fr);
-  width: 350px;
-  height: 350px;
+  width: 550px;
+  height: 550px;
 }
 
 .slider-container {
@@ -32,25 +42,26 @@ body {
 }
 
 #slider {
-  width: 100px;
-  height: 5px;
+  width: 200px;
+  height: 20px;
 }
 
 .value {
-  font-size: 14px;
   margin-left: 8px;
+  font-size: 22px;
 }
 
 h1 {
   font-family: 'Damion', cursive;
   font-weight: 600;
   color: gold;
-  font-size: 42px;
-  margin-top: 0;
+  font-size: 62px;
+  margin-top: 25px;
   margin-bottom: 0;
 }
 
 .adjust {
+  font-size: 22px;
   margin-right: 8px;
 }
 
